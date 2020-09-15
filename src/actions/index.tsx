@@ -2,11 +2,11 @@ import { INCREMENT, DECREMENT } from '../constants';
 
 // action类型声明
 export interface IINCREMENTAction {
-  type: INCREMENT
+  type: string
 }
 
 export interface IDECREMENTAction {
-  type: DECREMENT
+  type: string
 }
 
 export type ModifyAction = IINCREMENTAction | IDECREMENTAction
