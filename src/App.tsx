@@ -1,11 +1,16 @@
 import * as React from 'react';
-import CountCon from './container/CountCon';
+import AddTodo from './container/addTodo'
+import VisibleTodoList from './container/visibleTodoList'
+import Footer from './components/footer'
+import './App.css'
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <CountCon />
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
       </div>
     );
   }
